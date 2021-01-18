@@ -1,0 +1,55 @@
+.item {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem;
+  justify-content: space-between;
+  width: 370px;
+}
+
+.item:nth-child(n + 2) {
+  border-top: 1px solid #222;
+}
+
+.buttonX {
+  position: absolute;
+  color: black;
+  font-size: 1.4rem;
+  padding: 0.5rem 0.2rem;
+  right: 0;
+  top: 0px;
+  background: #aaa;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 6px 8px 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+.buttonX img {
+  width: 30px;
+  height: 30px;
+}
+
+.buttonX:hover {
+  background: #666;
+}
+
+.noSavedItems {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+  margin: 2rem auto;
+}
+
+@media (max-width: 500px) {
+  .item {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.3rem;
+    padding: 0 auto;
+    justify-content: space-between;
+    width: 320px;
+  }
+}

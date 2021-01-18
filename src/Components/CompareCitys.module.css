@@ -1,0 +1,54 @@
+.compareCitys {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-content: center;
+}
+
+.table {
+  margin: 0 0.5rem;
+  box-shadow: 15px 5px 20px 12px rgba(0, 0, 0, 0.1);
+  background: rgba(2, 0, 0, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+}
+
+.table tr th {
+  padding: 6rem 1rem;
+  border: 1px solid #222;
+}
+.table tr td {
+  border: 1px solid #777;
+  padding: 1rem;
+}
+
+.table tr th:nth-child(odd) {
+  background: black;
+  color: white;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.table tr th:nth-child(even) {
+  color: white;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.button {
+  margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+  .table tr th:nth-child(even) {
+    padding: 0.1rem;
+  }
+  .table tr th:nth-child(odd) {
+    padding: 0.1rem;
+  }
+  .table tr td {
+    border: 1px solid #777;
+    padding: 0.4rem;
+  }
+}

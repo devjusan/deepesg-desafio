@@ -1,0 +1,11 @@
+.content {
+  background: rgba(2, 0, 0, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  border-radius: 10px;
+  max-width: 600px;
+  transform: scale(0.9);
+  margin: 0 auto;
+}

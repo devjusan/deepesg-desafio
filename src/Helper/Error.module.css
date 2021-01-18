@@ -1,0 +1,9 @@
+.error {
+  display: inline-block;
+  display: flex;
+  z-index: 1;
+}
+
+.error p {
+  margin-left: 1.5rem;
+}

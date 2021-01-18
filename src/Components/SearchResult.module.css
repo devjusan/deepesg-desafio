@@ -1,0 +1,42 @@
+.searchResult {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2.5rem 0;
+  padding: 0.5rem 4rem;
+  background-color: #eee;
+  border-radius: 4px;
+  border: 0.5px solid #ccc;
+}
+
+.searchResult button {
+  border: 1px solid #eee;
+  font-size: 1.4rem;
+  padding: 0.5rem 1.8rem;
+  margin: 1rem 0;
+  color: white;
+  border-radius: 5px;
+  background: #222;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+}
+
+.searchResult button:hover {
+  background: #111;
+}
+
+.searchResult h3 {
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.searchResult h3::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 30px;
+  border-radius: 5px;
+  height: 1.5px;
+  background: black;
+  left: 0;
+}
